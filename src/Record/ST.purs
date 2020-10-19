@@ -9,7 +9,7 @@ module Record.ST
 
 import Prelude
 
-import Control.Monad.ST (ST, kind Region)
+import Control.Monad.ST (ST, Region)
 import Data.Symbol (class IsSymbol, SProxy, reflectSymbol)
 import Prim.Row as Row
 
